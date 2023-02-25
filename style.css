@@ -1,0 +1,28 @@
+main {
+    width: 35vw;
+    margin: 20vh auto;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(76,110,161,1) 79%, rgba(13,33,235,1) 100%);
+    border-radius: 30%;
+    box-shadow: 2px 20px 10px rgb(0 0 0 / 0.2);
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p, q {
+    text-align: center;
+    height: 8vh;
+    margin: auto;
+    padding: 7.5%;
+    font-size: x-large;
+    font-family: monospace;
+}
+
+button {
+    font-size: large;
+    font-family: monospace;
+}
